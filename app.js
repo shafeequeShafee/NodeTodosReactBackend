@@ -81,9 +81,9 @@ con.on('open', function () {
 const todosRouter= require("./router/router")
 app.use('/todos',todosRouter)
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 4000;
 app.listen(PORT, () => {
-    console.log("server is running 0n 3000")
+    console.log("server is running 0n 4000")
 })
 
 
