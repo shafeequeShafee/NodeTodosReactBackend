@@ -3,6 +3,8 @@
 const express = require('express');
 const mongoose = require("mongoose")
 const app = express();
+// const url='mongodb://127.0.0.1:27017/mydatabase'
+// const url =`mongodb+srv://root:root@cluster0.ffqoazn.mongodb.net/TestDB`
 const url='mongodb://localhost/SfqDBex';
 const cors = require('cors')
 
